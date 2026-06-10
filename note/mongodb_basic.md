@@ -1,0 +1,1 @@
+schema(bản thiết kế chi tiết) --> model
