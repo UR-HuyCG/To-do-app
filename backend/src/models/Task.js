@@ -19,5 +19,6 @@ const taskSchema = new mongoose.Schema({
     timestamps:true, // tự động thêm createdAt và updatedAt
 });
 
-const Task = mongoose.model("Task",taskSchema); //truyền vào tên model và schema tương ứng, mongoose sẽ tự động tạo collection tên là "tasks" trong MongoDB (số nhiều của "Task")
+const Task = mongoose.model("Task",taskSchema); //truyền vào tên model và schema tương ứng, mongoose sẽ tự động tạo collection là "Tasks" trong MongoDB
+
 export default Task;    

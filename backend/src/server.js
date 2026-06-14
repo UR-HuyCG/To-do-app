@@ -1,7 +1,7 @@
 import express from 'express';
 import tasksRoute from './routes/tasksRouters.js';
 import dns from 'dns';
-import { connectDB } from './config/db.js';
+import connectDB from './config/db.js';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import path from 'path';
